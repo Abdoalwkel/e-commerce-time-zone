@@ -1,0 +1,1181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300&display=swap');
+
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+  
+    
+    }
+
+    
+html{
+
+overflow-x: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+.sec2{
+    overflow: hidden;
+}
+.watch{
+    overflow: hidden;
+}
+
+.clock-items{
+    overflow: hidden;
+}
+
+.sec5{
+    overflow: hidden;
+}
+
+.sec6{
+    overflow: hidden;
+}
+
+.sec7{
+    overflow: hidden;
+}
+
+main{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav */
+
+
+.navbar-nav .nav-link {
+
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 17px;
+    margin-right: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: .2s all;
+    max-width: 50%;
+}
+.navbar-nav .nav-link:hover{
+
+color: red;
+}
+
+
+
+.navbar{
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0 16px 3px rgb(0,0,0,.3);
+background-color: white;
+position: fixed;
+width: 100%;
+z-index: 5;
+
+}
+img, svg {
+    vertical-align: inherit;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 11rem;
+    max-width: 100%;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    position: absolute;
+    top: 72px;
+    border-top: 7px solid red;
+    border-radius: 30px 9px 9px 9px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .5s all;
+    transition-delay: .2s;
+}
+
+
+
+.dropdown-item:hover{
+
+    border-radius: 13px 0 0 0;
+
+}
+.bx {
+    font-size: 22px;
+    margin-right: 1rem;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.bx:hover{
+color: red;
+
+}
+
+
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.9rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+    margin-right: 3rem;
+}
+
+.navbar-toggler:focus{
+box-shadow: none;
+border: 1px solid red;
+color: red;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    margin-left: 103px;
+}
+
+.navbar-collapse i{
+    position: relative;
+    right: 65px;
+    padding: 13px 0;
+
+}
+
+
+
+/* home pg */
+
+
+.home{
+background: #f0f0f2;
+min-height: 100%;
+width: 100%;
+/* padding: 10rem 9% 2rem; */
+}
+
+.allhome{
+
+    overflow: hidden;
+height: 130vh;
+
+}
+
+
+.all{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.home .home-text{
+max-width: 70%;
+
+}
+
+.home .home-text h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6rem;
+font-weight: bold;
+color: rgb(8, 8, 43);
+
+}
+
+.home .home-text p{
+    font-size: 1.6rem;
+
+    
+}
+
+
+TExt{
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+
+.home-link {
+background: #4a4a4b;
+    width: 9em;
+    height: 3em;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    color: white;
+    font-size: 16px;
+   }
+   
+
+
+
+   .home-link::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .home-link:hover::before {
+    width: 9em;
+   }
+
+
+
+.home .home-img img{
+    position: relative;
+    bottom: 80px;
+    width: 350px;
+}
+
+.heartbeat {
+    animation: heartbeat 1s infinite alternate;
+}
+
+@-webkit-keyframes heartbeat {
+    to {
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+}
+
+/* ========= (2) ============*/
+
+
+.sec2{
+    padding: 3rem 0% 0rem;
+padding-bottom: 6rem;
+}
+
+
+.sec2 h1{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.8rem;
+    margin-left: 70px;
+    padding: 16px 0;
+    padding-top: 10rem;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.new-pro .all-pro{
+overflow: hidden;
+
+}
+.new-pro .all-pro h3{
+    margin-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+    }
+    .new-pro .all-pro p{
+        font-family: 'Josefin Sans', sans-serif;
+color: red;
+font-size: 1.2rem;
+        }
+
+
+.new-pro .pro img{
+
+    transition: .5s all;
+width: 100%;
+}
+
+.new-pro .pro img:hover{
+
+transform: scale(1.03);
+
+}
+
+
+
+    /* ========== (3) ================== */
+
+
+
+/* Start Watch Section  */
+.watch #last-img{
+    margin-top: 37px;
+}
+.watch .images {
+overflow: hidden;
+
+}
+.watch .images img {
+transition: 0.5s;
+
+}
+
+
+.watch .images img {
+
+transform: scale(1.2);
+}
+.watch .images:hover img{
+transform: scale(1.1);
+
+}
+
+
+
+
+
+/* End Watch Section  */
+
+
+
+        /* ========== (4) clock =================== */
+
+.clock-items .clock{
+    text-align: center;
+    margin: auto;
+}
+
+.clock-items .head-text p{
+
+    font-size: 15px;
+    letter-spacing: .3px;
+    color: gray;
+}
+.clock-items .clocke img{
+
+border-bottom: 3px solid red;
+}
+
+.clock-items .clocke h1{
+    font-size: 31px;
+    padding: 14px 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+.clock-items .clocke p{
+    font-size: 20px;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+.More-preducts {
+    background: #4a4a4b;
+    height: 56px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    position: absolute;
+    overflow: hidden;
+    z-index: 4;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 13px 35px;
+    right: 33rem;
+    margin-top: 37px;
+       }
+       
+       .More-preducts:hover{
+        color: white;
+       }
+    
+    
+    
+       .More-preducts::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     background: red;
+     z-index: -1;
+     transition: .7s all;
+     color: white;
+       }
+       
+       .More-preducts:hover::before {
+        width: 12.6em;
+       }
+    
+.clocke{
+    position: relative;
+}
+
+
+
+    .clocke .actione{
+        position: absolute;
+        top: 20rem;
+        list-style: none;
+        margin-left: 10px;
+
+    }
+    .clocke .actione .icon-hov{
+        position: absolute;
+        bottom: 18.5rem;
+        left: 20.5rem;
+    }
+
+.clocke .actione .icon-hov i{
+
+    font-size: 36px;
+
+
+}
+    .clocke .actione .text-hov{
+
+        position: relative;
+        top: 26px;
+    transform: translateY(7px);
+    }
+
+    .clocke .actione .text-hov a{
+
+        text-decoration: none;
+        color: white;
+        background: red;
+        padding: 18px 135px;
+        position: relative;
+        right: 14px;
+        bottom: 6px;
+    }
+
+    .clocke .actione li{
+
+opacity: 0;
+transition: .6s all;    
+
+}
+
+.clocke:hover .actione li{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+/* =============== (5) ============= */
+
+
+
+.sec5 .singel-gallery{
+align-items: center;
+padding: 137px 0px;
+
+}
+
+.sec5 .singel-gallery .first-text{
+    max-width: 33rem;
+
+
+
+}
+
+
+
+.sec5 .singel-gallery .first-text h1{
+
+    font-size: 60px;
+    padding-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+
+}
+
+
+.sec5 .singel-gallery .first-text p{
+
+
+    font-size: 18px;
+    color: gray;
+
+}
+
+
+
+
+
+
+.sec5 .singel-gallery .first-text .watchs {
+    padding: 15px 25px;
+    color: white;
+    z-index: 1;
+    background: #4a4a4b;
+    position: relative;
+    font-size: 17px;
+    transition: all 350ms;
+    overflow: hidden;
+    width: 12rem;
+    cursor: pointer;
+    text-decoration: none;
+   }
+   
+   .sec5 .singel-gallery .first-text .watchs::before {
+   content: '';
+   position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: red;
+    z-index: -1;
+    transition: all 350ms
+   }
+   
+   .sec5 .singel-gallery .first-text .watchs:hover {
+    color: #e8e8e8;
+   }
+   
+   .sec5 .singel-gallery .first-text .watchs:hover::before {
+    width: 100%;
+   }
+
+
+.sec5 .first-img{
+
+    padding-left: 50px;
+
+}
+
+
+/* ================ (6) ======================= */
+
+
+.sec6 .singel-gallery{
+    align-items: center;
+    padding: 137px 0px;
+    
+    }
+    
+    .sec6 .singel-gallery .first-text{
+        max-width: 33rem;
+    
+    
+    
+    }
+    
+    
+    
+    .sec6 .singel-gallery .first-text h1{
+    
+        font-size: 60px;
+        padding-bottom: 40px;
+        font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+    
+    }
+    
+    
+    .sec6 .singel-gallery .first-text p{
+    
+    
+        font-size: 18px;
+        color: gray;
+    
+    }
+    
+    
+    
+
+
+
+.sec5 .first-img2{
+padding-right: 87px;
+}
+
+.sec6 .singel-gallery .first-text .show {
+    padding: 15px 25px;
+    border: unset;
+    color: white;
+    z-index: 1;
+    background: #4a4a4b;
+    position: relative;
+    font-size: 17px;
+    transition: all 350ms;
+    overflow: hidden;
+    width: 12rem;
+    cursor: pointer;
+   }
+   
+   .sec6 .singel-gallery .first-text .show::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: red;
+    z-index: -1;
+    transition: all 350ms
+   }
+   
+   .sec6 .singel-gallery .first-text .show:hover {
+    color: #e8e8e8;
+   }
+   
+   .sec6 .singel-gallery .first-text .show:hover::before {
+    width: 100%;
+   }
+
+
+
+/* ============= (7) ================ */
+        
+
+.sec7{
+    padding: 70px 0px;
+
+}
+
+.sec7 .all-LastParts{
+
+    padding: 39px 72px;
+    background: red;
+    max-width: 60rem;
+}
+
+.sec7 .last-text{
+    padding: 0px 20px;
+    margin-top: 12px;
+}
+
+.sec7 .last-text i{
+    color: white;
+    font-size: 40px;
+}
+
+.sec7 .last-text h1{
+    font-size: 20px;
+    color: white;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+}
+
+
+.sec7 .last-text p{
+    color: #d3d1d1;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* ==================== footer =========== */
+
+
+footer .Footer .footer-links p{
+
+    margin-top: 38px;
+    font-size: 17px;
+    color: gray;
+}
+
+
+
+footer .Footer .footer-links h1{
+
+    font-size: 21px;
+    margin-left: 28px;
+    margin-bottom: 23px;
+}
+
+
+
+
+footer .Footer .footer-links li{
+
+    list-style: none;
+    padding: 8px 0px;
+}
+
+footer .Footer .footer-links a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: .5s all;
+    
+}
+
+
+
+footer .Footer .footer-links a:hover{
+
+color: red;
+padding-left: 6px;
+}
+
+
+
+.Copy{
+    padding: 50px 0px;
+
+
+}
+.copy-icon{
+display: flex;
+justify-content: flex-end;
+position: absolute;
+}
+
+.copy-text p{
+    width: 116%;
+
+}
+
+
+@media (max-width: 1205px){
+
+
+    .clocke .actione{
+        position: absolute;
+        width: 25rem;
+        left: -15px;
+        top: 20.3rem;     
+
+    }
+
+
+    .More-preducts {
+
+        position: relative;
+        right: -27px;
+        top: 40px;
+
+    }
+
+    .home{
+        width: 108%;
+    }
+
+}
+
+
+@media (max-width: 1205px){
+
+    .clocke .actione{
+z-index: 3;        
+
+    }
+    .text-center {
+        text-align: center!important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .new-pro .all-pro {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (max-width: 991px){
+
+
+    .clocke .actione{
+        position: absolute;
+        left: -13px;
+        top: 20.3rem;     
+
+    }
+
+    .sec5 .singel-gallery {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+  
+
+    .sec5 .singel-gallery .first-text {
+        margin-bottom: 34px;
+    }
+
+    .sec6 .singel-gallery {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+    .home .home-text h1 {
+        font-size: 3.9rem;
+    }
+
+    .home .home-text p {
+        font-size: 1.3rem;
+    }
+
+
+
+    .sec7 .all-LastParts {
+        padding: 37px 1px;
+        background: red;
+        width: 52rem;
+        position: relative;
+        right: 23px;
+    }
+
+
+    .copy-icon {
+        position: absolute;
+        left: -2rem;
+    }
+}
+
+
+@media (min-width: 821px) and (max-width: 900px){
+
+
+    .clocke .actione{
+        left: 135px;
+
+    }
+
+
+    @media (min-width: 700px) and (max-width: 820px){
+
+
+        .clocke .actione{
+            left: 135px;
+    
+        }
+
+    }
+
+
+}
+
+@media (min-width: 435px) and (max-width: 699px){
+
+
+    .clocke .actione{
+        left: -8px;
+
+    }
+    .clock-items .clock {
+        text-align: center;
+        margin-left: 111px;
+      
+    }
+.head-text{
+    margin-left: 86px;
+
+}
+
+}
+
+@media (min-width: 587px) and (max-width: 698px){
+    .home .home-img img {
+        position: relative;
+        bottom: -34px;
+        width: 220px;
+    }
+    .home .home-text h1 {
+        font-size: 2.9rem;
+    }
+    .home .home-text p {
+        font-size: 1.2rem;
+    }
+
+    .home-link {
+        font-size: 13px;
+    }
+    .clock-items .clock {
+        text-align: center;
+        margin-left: 17px;
+    }
+    .head-text {
+        margin-left: 27px;
+    }
+    .sec7 .all-LastParts {
+        padding: 37px 1px;
+        background: red;
+        width: 19rem;
+        position: relative;
+        right: -92px;
+    }
+    .Copy {
+        padding: 50px 0px;
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 767px){
+
+
+    .clocke .actione{
+        left: 135px;
+
+    }
+
+    .watch .images {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .More-preducts {
+        position: relative;
+        right: -27px;
+        top: -10px;
+    }
+    .sec7 .all-LastParts {
+        padding: 37px 1px;
+        background: red;
+        width: 19rem;
+        position: relative;
+        right: -93px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 820px){
+
+
+    .clocke .actione{
+        left: 135px;
+
+    }
+    .home .home-img img {
+        position: relative;
+        bottom: 7px;
+        width: 290px;
+    }
+    .home .home-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .home .home-text p {
+        font-size: 1.1rem;
+    }
+    .home-link {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1206px) and (max-width: 1267px){
+
+
+    .clocke .actione{
+        left: -14px;
+        width: 25rem;
+    }
+
+
+}
+
+
+@media (min-width: 350px) and (max-width: 570px){
+    
+    
+    .all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .home .home-img img {
+        position: relative;
+        bottom: 18px;
+        width: 107px;
+        height: 40vh;
+    }
+    .sec2 h1 {
+        font-size: 2.8rem;
+        margin-left: 37px;
+      
+    }
+    .home .home-text h1 {
+        font-size: 2.9rem;
+        margin-top: 171px;
+    }
+    .home .home-text p {
+        font-size: 1.2rem;
+    }
+
+    .home-link {
+        font-size: 13px;
+    }
+    .clock-items .clock {
+        text-align: center;
+        margin-left: 17px;
+    }
+    .head-text {
+        margin-left: 27px;
+    }
+    .sec7 .all-LastParts {
+        padding: 37px 1px;
+        background: red;
+        width: 19rem;
+        position: relative;
+        right: -92px;
+    }
+    .Copy {
+        padding: 50px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .clock-items .clocke img {
+        border-bottom: 3px solid red;
+        width: 48vh;
+    }
+
+    .clocke .actione {
+        position: absolute;
+        left: -13px;
+        top: 14.9rem;
+        font-size: 9px;
+        padding: 0 0;
+        width: 112%;
+    }
+
+    .sec5 .first-img img{
+        width: 306px;
+    height: 319px;
+    position: relative;
+    right: 26px;
+    }
+
+
+    .sec5 .singel-gallery .first-text h1 {
+        font-size: 38px;
+
+    }
+
+    .sec5 .singel-gallery .first-text p {
+        font-size: 15px;
+        color: gray;
+    }
+    .sec5 .singel-gallery .first-text .show {
+        padding: 14px 8px;
+   
+        font-size: 14px;
+    
+    }
+    .sec6 .first-img2 img{
+        width: 306px;
+    height: 319px;
+    position: relative;
+    right: 6px;
+    }
+    .sec6 .singel-gallery .first-text h1 {
+        font-size: 38px;
+
+    }
+    .sec6 .singel-gallery .first-text p {
+        font-size: 15px;
+        color: gray;
+    }
+    .sec6 .singel-gallery .first-text .show {
+        padding: 14px 8px;
+   
+        font-size: 14px;
+    
+    }
+    .sec7 .all-LastParts {
+        padding: 37px 1px;
+        background: red;
+        width: 19rem;
+        position: relative;
+        right: -28px;
+        text-align: center;
+    }
+    .Footer{
+        text-align: center;
+    }
+
+.Copy{
+    text-align: center;
+    font-size: 16px;
+    max-width: 84%;
+    margin-left: 2px;
+}
+.copy-icon {
+    position: absolute;
+    left: -7rem;
+    padding: 115px 0;
+}
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
